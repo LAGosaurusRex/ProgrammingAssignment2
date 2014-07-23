@@ -7,13 +7,13 @@ makeCacheMatrix <- function(x = matrix()) {
     # Variable that's is set to the Inverse Property.
     inverseMatrix <- NULL
     
-    ## Set Method
+    ## Set Matrix Method
     setMatrix <- function(y){
         x <<- y
         inverseMatrix <- NULL
 
     }
-    ## Get Method
+    ## Get Matrix Method
     getMatrix <-function() x
     
     ## Get The Inverse
